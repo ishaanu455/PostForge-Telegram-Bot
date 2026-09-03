@@ -1,0 +1,19 @@
+# secrets
+.env
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# bot runtime data (persistence, downloads, logs)
+bot_persistence.pickle
+bot_persistence.pickle.*
+*.log
+tmp_*/
+vid_*/
+aud_*/
+
+# OS
+.DS_Store
